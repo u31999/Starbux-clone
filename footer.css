@@ -1,0 +1,156 @@
+footer{
+    height: 200px;
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    padding: 24px 0;
+    box-sizing: content-box !important;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    position: relative;
+    padding-top: 2.4rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.2rem;
+    margin-bottom: 0px;
+    
+}
+
+.link-container h3{
+    font-size: 1.6rem !important; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 24px;
+    width: 100%;
+}
+
+.link-container ul{
+    padding-left: 0;
+    
+}
+
+.link-container h3, .link-container ul li{
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    letter-spacing: -.01em !important;
+    font-family: Helvetica,Arial,sans-serif !important;
+}
+
+.link-container ul li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.56);
+    padding-top: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 19px;
+    font-weight: 450 !important;
+}
+
+.link-container ul li:hover{
+    color: rgba(0,0,0,.87);
+    cursor: pointer;
+}
+
+.horizntial-line{
+    padding: 14px 0;
+    width: 94% !important;
+    margin: auto;
+    border-top: solid 2px rgba(0,0,0,.1);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.social-icon{
+    display: flex;
+    margin-left: 2.5%;
+}
+
+.social-icon div{
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 12px;
+    border-radius: 50%;
+    border: 8px solid transparent ;
+    background-color: transparent;
+}
+
+.social-icon div i{
+    height: 35px;
+    width: 35px;
+    fill: currentColor;
+    overflow: visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 19.2px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.social-icon .spotify i{
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-size: 35px !important;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.social-icon div:hover{
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all .2s ease;
+
+}
+.footer-nav .footer-nav-list{
+    display: flex;
+}
+
+.footer-nav .footer-nav-list li{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.01 !important;
+    list-style-type: none;
+    border-right: 1.6px solid rgba(0,0,0,.56);
+    margin-right: 24px;
+    padding-right: 24px;
+    font-family: Helvetica, sans-serif;
+}
+
+.footer-nav .footer-nav-list li:hover{
+    text-decoration: underline black;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.footer-nav .footer-nav-list li:last-child{
+    border-right: none !important;
+}
+
+.rights{
+    padding-top: 19px;
+    padding-bottom: 38px;
+    padding-left: 37px;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    color: rgba(0,0,0,.56)!important;
+    line-height: 1.5;
+    letter-spacing: -0.01;
+}
+
+
